@@ -4,7 +4,7 @@ import path from 'path';
 import bcrypt from 'bcrypt';
 
 
-const filePath = path.join(process.cwd(), 'database/user.json');
+const filePath = path.join(process.cwd(), 'src/database/user.json');
 
 // http://localhost:3000/api/auth/register
 export const postRegister = async (req, res) => {
