@@ -1,0 +1,27 @@
+{
+  "name": "auth-secure-api",
+  "version": "1.0.0",
+  "description": "This is a RESTful Authentication API built with Node.js and Express. The project demonstrates a secure login flow by retrieving user data from a local JSON \"database\" and verifying identities using Bcrypt password encryption. It is designed for developers to practice backend routing, controller-based logic, and API testing via Postman.\r # Secure Auth Node API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohd-Dilshan/node-auth-secure-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Mohd-Dilshan/node-auth-secure-api/issues"
+  },
+  "homepage": "https://github.com/Mohd-Dilshan/node-auth-secure-api#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
